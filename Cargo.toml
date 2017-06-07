@@ -1,0 +1,6 @@
+[package]
+name = "rpcre"
+version = "0.1.0"
+authors = ["Karata <vabc3h@gmail.com>"]
+
+[dependencies]
