@@ -4,5 +4,9 @@ pub enum MatchResult {
 }
 
 pub fn m(a: &str, b: &str) -> bool {
-    b.contains(a)
+    if !a.starts_with("^"){
+        return b.contains(a)
+    } else {
+        return b.starts_with(&a[1..])
+    }
 }
